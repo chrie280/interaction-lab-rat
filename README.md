@@ -1,2 +1,3 @@
-# interaction-lab-rat
-core int sec k
+# Core Interaction
+spring semester 2020 core interaction work in progress
+
