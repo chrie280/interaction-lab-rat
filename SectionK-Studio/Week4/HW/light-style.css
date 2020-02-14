@@ -1,35 +1,44 @@
 h1 {
-	color: red;
+	color: white;
 	font-size: 50px;
 	margin: 0;
 	text-align: center;
+	font-family: courier;
 }
 h2 {
 	font-family: "Courier";
 	font-size: 30px;
 	padding: 0;
-	color: #38bbeb;
+	color: white;
 	text-align: center;
 }
 p {
 
 	font-family: "Georgia";
 	font-size: 20px;
-}
-a:hover {
-	background-color: #91f170;
+	margin-bottom: 50px;
 }
 body {
 	background-color: pink;
-	color: magenta;
-	border: solid 5px black 
+	color: white;
+	text-align: center;
+	border: dashed 5px white;
 }
 
 .address {
-	color: #38bbeb;
-	font-family: "Courier"
+	color: white;
+	font-family: "Courier";
+	text-align: center;
 }
 
 .header-title {
 	font-size: 100px;
+}
+
+img {
+	margin-bottom: 50px;
+}
+
+.part2 {
+	margin-bottom: 50pt;
 }

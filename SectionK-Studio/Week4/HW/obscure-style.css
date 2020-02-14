@@ -1,0 +1,74 @@
+h1 {
+	color: black;
+	font-size: 50px;
+	margin: 0;
+	text-align: center;
+}
+h2 {
+	font-family: "Courier";
+	font-size: 30px;
+	padding: 0;
+	color: black;
+	text-align: right;
+}
+p {
+
+	font-family: "Arial";
+	font-size: 20px;
+}
+body {
+	background-color: red;
+	color: black;
+	border: solid 100px black 
+}
+
+.address {
+	color: black;
+	font-family: "Courier";
+	text-align: right;
+	padding-right: 10pt;
+}
+
+.header-title {
+	font-size: 100px;
+}
+.network {
+	text-align: right;
+}
+
+img {
+	width: 100px; 
+}
+
+body {
+	background-image: url('/Users/ellachristensen/Desktop/interaction-lab-rat/SectionK-Studio/Week4/HW/source-1.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+.part1 {
+  font: 50pt courier;
+  color: white;
+  position: absolute;
+  text-align: right;
+}
+
+.part2 {
+  font: 50pt courier;
+  color: white;
+}
+
+.pic1 {
+	float: right;
+	height: 700px;
+	width: 700px;
+}
+
+.pic2 {
+	float: right;
+	height: 700px;
+	width: 400px;
+}
+

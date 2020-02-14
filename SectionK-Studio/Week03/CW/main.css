@@ -1,0 +1,31 @@
+#one{
+	background-color: pink;
+	left: 500px;
+	right: 50px;
+	height: 500px;
+	width:50px;
+	position: center
+}
+#two{
+	background-color: red;
+	left: 500px;
+	right: 500px;
+	height: 50px;
+	width:50px;
+	position: left
+}
+#three{
+	background-color: green;
+	left: 500px;
+	right: 500px;
+	height: 50px;
+	width:50px;
+}
+#four{
+	background-color: brown;
+	left: 50px;
+	right: 500px;
+	height: 500px;
+	width:50px;
+}
+
