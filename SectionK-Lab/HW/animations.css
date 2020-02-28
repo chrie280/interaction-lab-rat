@@ -1,0 +1,12 @@
+body {
+	background-color: #7ed76b;
+}
+
+#one{
+	background-color: green;
+	position: absolute;
+	width: 80vmin;
+	height: 50vmin; 
+	margin-top: 30%;
+	margin-left: 30%;
+	animation: spin 5s infinite linear;
