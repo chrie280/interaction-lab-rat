@@ -1,0 +1,12 @@
+.yikes {
+	width: 800px;
+	height: 600px;
+	overflow: scroll;
+	position: absolute;
+	left: 25%;
+	top: 10%;
+}
+
+img {;
+ 	width:800px;
+}

@@ -1,0 +1,47 @@
+body {
+	background-color: #7ed76b;
+	background-image: url(stripes.png);
+}
+
+#one{
+	background-color: #ccb1f4;
+	height: 200px;
+	width:100%;
+	position: relative;
+	animation: spin 2s infinite linear;
+}
+#two{
+	background-color: #eb514a;
+	height:400px;
+	width:100%;
+	animation: spin 0.5s infinite linear;
+}
+#three{
+	background-color: #f99897;
+	height: 200px;
+	width: 300px;
+	position: absolute;
+	animation: spin 0.2s infinite linear;
+}
+#four{
+	background-color: #76c7fc;
+	left: 50px;
+	right: 500px;
+	height: 200px;
+	width:100%;
+	animation: spin 1s infinite linear;
+}
+
+#five{
+	background-color: green;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
