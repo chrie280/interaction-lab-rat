@@ -1,0 +1,42 @@
+blanks
+
+SHAKE FUNCTION—
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+RANDOM POS—
+
+    position: fixed;
+    left: 40%;
+    top: 300px;
+
+    position: absolute;
+    left: 10%;
+    top: 600px;
+
+    position: absolute;
+    left: 75%;
+    top: 100px;
+    z-index: 48;
+
+    position: absolute;
+    right: 37%;
+    top: 615px;
+    z-index: 47;
+
+    position: absolute;
+    left: 14%;
+    top: 60px;
+    z-index: 47;*/
