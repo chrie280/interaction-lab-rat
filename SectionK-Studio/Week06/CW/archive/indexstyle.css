@@ -22,7 +22,7 @@ html {
 }
 
 .youre:hover {
-	animation: shake 0.5s;
+	animation: shake 2s;
 	animation-iteration-count: infinite;
 }
 
@@ -34,7 +34,7 @@ html {
 }
 
 .invited:hover {
-	animation: shake 0.5s;
+	animation: shake 2s;
 	animation-iteration-count: infinite;
 }
 
