@@ -1,37 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Hello!</title>
+    <title>Vanessa Stockard ♥</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <style>
-      .hero_image {
+
+      .frame {
+        position: relative;
         width: 50%;
+        height: 50%;
+        left: 25%;
+        transform: rotate(90deg);
       }
-      
+
+      .hero_image {
+        position: fixed;
+        width: 40%;
+        height:50%;
+        left:30%;
+      }
+
+      html {
+        background-color: pink;
+      }
+
       button {
-        display:block;
+        display:block; 
+        height: 50px;
+        width:100px;
         position:fixed;
         bottom:10px;
-        color:red;
-        background-color:pink;
+        color:pink;
+        background-color:black;
         cursor:pointer;
       }
+
     </style>
 
     <!--   jquery hosted library   -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
-    <div style="position: fixed;margin-top: 5%; margin-left: 5%;">
+    <div style="position: fixed; margin-top: 15%; margin-left: 38%;">
     <img class="hero_image" src=" " />
 
     </div>
-    
+
+    <img class="frame" src="img/IMG_1092.png">
+
     <button>
-      something here
+      CLICK!
     </button>
  
     <script>
